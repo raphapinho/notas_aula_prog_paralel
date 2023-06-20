@@ -1,0 +1,30 @@
+ganho de desempenho com o tempo de processamento.
+
+##TOMAR CUIDADO COM DEPENDENCIA DE CODICO##
+OBS: TEM QUE TIRAR AS DEPENDENCIAS DO CODIGO!!!
+
+são utilizados multiplos processos
+
+
+diferente do omp, não a paralelismo implicito, logo a implementação do programa fica mais custoso.
+
+precisa expecificar de forma explicita.
+
+modelo de programa multiplos;
+
+
+    if(processo = no())then
+            executa função do no()
+    else
+        executa funções do no1
+    endif
+
+SPMP:
+
+MPMD:
+
+
+compilar:
+    mpicc <arquivo.c> -o <arquivo>
+executar
+    mpiexec./<arquivo>

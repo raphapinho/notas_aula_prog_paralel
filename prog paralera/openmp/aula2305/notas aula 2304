@@ -1,0 +1,5 @@
+construtore de compartilhamento de trabalho:
+
+    2 diretiva sections: a seções são idepedentes umas das outras, para que não ocorra a concorrencia dos vetores. a escalabilidade esta definida definida diretamente no comando 
+
+    

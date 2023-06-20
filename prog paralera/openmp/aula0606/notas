@@ -1,0 +1,7 @@
+se diminuir o tempo de execução, há um aumento no speedup
+
+speedup = Tseq/Tpar
+
+Eficiencia = speedup/ Nº de threads 
+
+Desempenho = Eficiencia * 100%
